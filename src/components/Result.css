@@ -1,0 +1,31 @@
+.resultCard {
+    box-sizing: border-box;
+    padding: 2rem;
+    color: black;
+    min-width: 40vw;
+    max-width: 50vw;
+    min-height: 45vh;
+    max-height: fit-content;
+    background-color: #7d8dbbe6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .resultCard h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .resultCard button {
+    width: fit-content;
+  }

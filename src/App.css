@@ -1,0 +1,26 @@
+.backGround {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  .header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+  h1 {
+    margin: 0;
+  }
+  button {
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-weight: 600;
+  }

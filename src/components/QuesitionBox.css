@@ -1,0 +1,43 @@
+.questions {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 70vw;
+    height: 75vh;
+    background-color: #7d8dbbe6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    box-shadow: rgba(153, 151, 151, 0.275) 0px 5px 15px;
+  }
+  h2 {
+    margin: 0;
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  .option {
+    cursor: pointer;
+    color: black;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    height: fit-content;
+    background-color: rgb(184, 184, 184);
+    text-align: center;
+  }
+  .highLight {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .highLight button {
+    width: fit-content;
+  }
